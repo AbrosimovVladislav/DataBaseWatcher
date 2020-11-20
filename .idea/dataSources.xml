@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="Dev Your Hockey" group="Dev" uuid="65e2da9b-4fe2-43e8-bc2f-865f2cc62887">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://161.35.203.227:5432/yourhockey</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="Prod Your Hockey" group="Prod" uuid="5a46e7bc-de91-40d1-b26e-66f6a6881cef">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://161.35.70.99:5432/yourhockey</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="Prod Scrapping Service" group="Prod" uuid="56d6575f-ab75-4c64-b7e0-f7c80324dbfa">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://161.35.70.99:5432/scrappingservice</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="Dev Scrapping Service" group="Dev" uuid="2bd8a9b5-70a7-4bfd-abda-d8d2e7c69699">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://161.35.203.227:5432/scrappingservice</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="Prod Matcher Service" group="Prod" uuid="841bc248-5b7c-4312-82fc-89fb923b0a69">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://161.35.70.99:5432/matchingservice</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="Prod TT" group="Prod" uuid="42fad8e6-16b0-472a-9c6e-75d618ee0a9f">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://161.35.70.99:5432/troubleticketservice</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="Dev Matcher Service" group="Dev" uuid="adfc3ad6-6e0f-4193-9e0a-cfcddbe631c9">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://161.35.203.227:5432/matchingservice</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="Dev TT" group="Dev" uuid="b1b711a2-5bb8-48b3-8793-c861af39abaf">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://161.35.203.227:5432/troubleticketservice</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="Local Your Hockey" group="Local" uuid="ba02b25b-3a2f-4a70-9d9f-ca5464c68490">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://localhost:5432/yourhockey</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="Local Scrapping Service" group="Local" uuid="708423a4-71ed-4f2b-9936-e93d3b7dd1ef">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://localhost:5432/scrappingservice</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="Local Matcher Service" group="Local" uuid="61d9d66a-b691-4cf8-9a8c-29160d4685aa">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://localhost:5432/matchingservice</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="Local TT" group="Local" uuid="523d7e4f-9f09-4f60-9d9c-250cc393e515">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://localhost:5432/troubleticketservice</jdbc-url>
+    </data-source>
+  </component>
+</project>
